@@ -735,7 +735,8 @@ p {
 }
 
 .lists__download-item {
-  padding: 10px 0 10px 12px;
+  border: 2px solid transparent;
+  padding: 10px 10px 10px 12px;
   border-bottom: 1px solid rgb(224, 224, 224);
   height: 58px;
 }
@@ -748,6 +749,15 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.lists__download-item label:hover {
+  cursor: pointer;
+}
+
+.lists__download-item:hover {
+  border: 2px dashed rgb(246, 98, 73);
+  cursor: pointer;
 }
 
 .order__vievs-titl {
@@ -815,7 +825,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 50px;
+  gap: 30px;
 }
 
 .item__download-text {
